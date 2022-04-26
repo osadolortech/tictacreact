@@ -62,6 +62,9 @@ const App = () =>{
         }
         checkwinner(squares)
         setcells(squares)
+        if(squares.includes("")===false){
+            alert("Draw")
+        }
     }
 
     
